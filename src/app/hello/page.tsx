@@ -1,6 +1,9 @@
+"use client";
 /** @packageDocumentation
  * And this is how you document modules I guess?
  */
+
+import { Button } from "../components/Button";
 
 /**
  * First real page. This one is just here for me to figure out the new way
@@ -10,6 +13,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="m-8 text-center text-4xl">Hello</h1>
+      <Button onClick={() => undefined}>Yo</Button>
     </div>
   );
 }

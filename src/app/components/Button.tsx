@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 export type ButtonProps = Readonly<{
@@ -17,5 +19,12 @@ export type ButtonProps = Readonly<{
  * Reusable styled button component.
  */
 export function Button({ onClick, children }: ButtonProps): React.ReactNode {
-  return <button onClick={onClick}>{children}</button>;
+  return (
+    <button
+      onClick={onClick}
+      className="px-2 border border-black rounded-md focus:outline-black cursor-default active:bg-gray-400"
+    >
+      {children}
+    </button>
+  );
 }
