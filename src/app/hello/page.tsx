@@ -1,3 +1,7 @@
+/** @packageDocumentation
+ * And this is how you document modules I guess?
+ */
+
 /**
  * First real page. This one is just here for me to figure out the new way
  * NextJS does routing.
