@@ -13,7 +13,6 @@ import { Button } from "./Button";
  *
  * Well, Claude disagrees:
  *
- *
  * > Let me address the hydration race condition concern:
  * >
  * > No, you won't encounter race conditions with button clicks during hydration
