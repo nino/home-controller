@@ -19,7 +19,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@flydotio/dockerfile": "^0.6.0",
+    "@flydotio/dockerfile": "^0.7.2",
     "@testing-library/react": "^16.1.0",
     "@types/node": "^22.10.5",
     "@types/react": "^18",
